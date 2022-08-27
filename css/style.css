@@ -99,6 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 header {
   height: 82px;
+  padding-top: 28px;
   background-color: #F4F9E2;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -125,9 +126,9 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logo {
@@ -135,7 +136,8 @@ header {
       -ms-flex: 0 1 33%;
           flex: 0 1 33%;
 }
-.logo h3 {
+
+.thrivetalk {
   font-family: "Larsseit";
   font-size: 24px;
   line-height: 27px;
@@ -192,6 +194,7 @@ header {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
+  z-index: 10;
 }
 
 .contact-us__button {
@@ -207,4 +210,242 @@ header {
       -ms-flex-align: center;
           align-items: center;
   color: #FFFFFF;
+  padding: 20px 30px;
+}
+
+.block-1 {
+  background-color: #F4F9E2;
+}
+
+.block-1__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.block-1__main-info {
+  width: 45%;
+}
+.block-1__main-info h3 {
+  margin-top: 150px;
+}
+.block-1__main-info h1 {
+  font-family: "Larsseit";
+  font-size: 48px;
+  line-height: 53px;
+  letter-spacing: -0.035em;
+  color: #22356F;
+  margin-top: 33px;
+}
+.block-1__main-info p {
+  font-family: "Larsseit";
+  font-size: 24px;
+  line-height: 42px;
+  color: #22356F;
+  margin-top: 61px;
+}
+.block-1__main-info .block-1__buttons {
+  margin-top: 63px;
+  margin-bottom: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.who-am-i-btn {
+  font-family: "Larsseit";
+  font-size: 16px;
+  line-height: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  background-color: #F9B640;
+  padding: 10px 30px;
+}
+
+.alternative-button {
+  font-family: "Larsseit";
+  font-size: 16px;
+  line-height: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.1em;
+  color: #FAB63E;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.block-1__decor__img {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 2;
+}
+
+.block-1__decor__fon {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+.block-2 {
+  background-color: #62D0DF;
+  position: relative;
+  min-height: 300px;
+}
+
+.block-2__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.block-2__main-info {
+  width: 50%;
+}
+.block-2__main-info h2 {
+  font-family: "Larsseit";
+  font-size: 36px;
+  line-height: 27px;
+  letter-spacing: -0.006em;
+  color: #FFFFFF;
+  margin-top: 151px;
+}
+.block-2__main-info p {
+  font-family: "Larsseit";
+  font-size: 24px;
+  line-height: 35px;
+  color: #FFFFFF;
+  margin-top: 75px;
+  margin-bottom: 95px;
+}
+
+.block-2__decor {
+  position: absolute;
+  background-image: url(../img/blovk-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 30%;
+  height: 100%;
+  right: 0px;
+  top: 0px;
+}
+
+.block-3__flex {
+  width: 50%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+.block-3__flex h3 {
+  font-family: "Larsseit";
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #22356F;
+}
+.block-3__flex p {
+  font-family: "Larsseit";
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0.005em;
+  color: #22356F;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+  margin-top: 37px;
+  margin-bottom: 76px;
+}
+.block-3__flex h3:last-child {
+  font-family: "Larsseit";
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: rgba(34, 53, 111, 0.5);
+}
+
+.block-3__grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
+  grid-template-rows: 1fr;
+  min-height: 360px;
+}
+
+.block-3__grid > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.block-3__grid > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+
+.block-3__grid > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+.block-3__grid > *:nth-child(4) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+}
+
+.block-3__grid__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.block-3__grid__card .block-3__card__decoration {
+  width: 70%;
+  height: 0px;
+  border: 1px solid white;
+  margin-top: 71px;
+  margin-bottom: 32px;
+}
+.block-3__grid__card.pinck {
+  background-color: #FFE2DE;
 }
